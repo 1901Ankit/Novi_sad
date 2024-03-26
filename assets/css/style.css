@@ -17,9 +17,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
 :root {
   --rt-theme: #09A24F;
-  --rt-primary: #890C25;
-  --rt-primary-1: #B71A34;
-  --rt-primary-2: #890C25;
+  --rt-primary: #446e18;
+  --rt-primary-1: #446e18;
+  --rt-primary-2: #446e18;
   --rt-secondary: #110C2D;
   --rt-footer: #181818;
   --rt-body: #737477;
@@ -28,7 +28,7 @@
   --rt-rating: var(--rt-primary);
   --rt-border: #D9D9D9;
   --rt-line: #eee;
-  --rt-hover: #AF0E2E;
+  --rt-hover: #446e18;
   --copyright-border: #242424;
   --rt-radius:3px;
   --rt-radius-none: none;
@@ -65,7 +65,7 @@
   --line-height-b2: 26px;
   --line-height-b3: 1.7;
   --h1: 64px;
-  --h2: 48px;
+  --h2: 47px;
   --h3: 40px;
   --h4: 36px;
   --h5: 24px;
@@ -106,7 +106,7 @@ body {
   width: 30% !important;
 }
 .navbimages{
-  width: 30% ;
+  width: 15% ;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body {
@@ -442,6 +442,10 @@ ul.liststyle.bullet li {
 @media only screen and (max-width: 767px) {
   .imagedoctors{
     /* display: none; */
+  }
+
+  .hwl{
+    margin-top: 200px;
   }
   .rts-application-form-content{
     padding: 0 !important;
@@ -15996,7 +16000,7 @@ xclip
 }
 
 .rts__primary__bg-2 {
-  background: #890C25;
+  background: #446e18;
 }
 
 .save-from-hidden span {
@@ -16329,7 +16333,7 @@ xclip
 .header__sticky.fixed {
   position: fixed !important;
   box-shadow: 0px 7px 18px #1810100d;
-  background-color:  #890c25;
+  background-color:  #446e18;
   ;
 }
 .header__sticky.fixed .header__logo--link img {
@@ -16964,7 +16968,7 @@ xclip
   /* margin-bottom: 40px; */
 }
 .qujs{
-font-size: 28px;
+font-size: 31px;
 }
 .rts-hero-slider-active .swiper-slide .rts-slider-content .rts-slider-title span {
   font-weight: 400;
@@ -24527,7 +24531,7 @@ font-size: 28px;
 }
 
 .we-offer-area.text-center .itemmeid i::after {
-  border: 2px solid #890c25;
+  border: 2px solid #446e18;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -24578,7 +24582,7 @@ font-size: 28px;
 }
 
 .we-offer-area .itemmeid i {
-  color: #890c25 !important;
+  color: #446e18 !important;
   display: inline-block;
   font-size: 60px;
   margin-bottom: 20px;
@@ -24610,7 +24614,7 @@ font-size: 28px;
 }
 
 .we-offer-area .itemmeid::after {
-  background: #890c25 none repeat scroll 0 0;
+  background: #446e18 none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: -100%;
@@ -24641,7 +24645,7 @@ font-size: 28px;
 
 .we-offer-area.text-center .itemmeid:hover i {
   background-color: #ffffff !important;
-  color: #890c25 !important;
+  color: #446e18 !important;
 }
 
 .we-offer-area.text-left .itemmeid i {
